@@ -1,18 +1,19 @@
 # 📈 StockAnalysis
 
 ## 🧩 Overview
-This project is a **Java-based console application** developed as part of a university programming assignment.  
-It performs basic **stock price analysis**, including reading sample data, calculating averages, and displaying analytical results such as highest, lowest, and average prices.  
-The project demonstrates practical use of **arrays, loops, conditionals, and mathematical operations** in Java.
+This project is a **Java console-based program** that performs basic **stock price analysis** using both arrays and ArrayLists.  
+It demonstrates key programming concepts such as **method overloading**, **loops**, and **collections** by calculating averages, maximums, counts, and cumulative sums of stock prices.  
+The project serves as a hands-on exercise in **modular programming and data processing**.
 
 ---
 
 ## ⚙️ Features
-- Read and store stock price data  
-- Calculate highest, lowest, and average stock prices  
-- Display formatted analysis results  
-- Handle invalid inputs gracefully  
-- Simple console-based user interface  
+- Calculate **average stock price** (supports both arrays and ArrayLists)  
+- Find the **maximum stock price** using iteration  
+- Count **occurrences of a target price**  
+- Compute a **cumulative sum** of stock prices  
+- Demonstrate **method overloading** for multiple data structures  
+- Display analytical results directly in the console  
 
 ---
 
@@ -20,29 +21,34 @@ The project demonstrates practical use of **arrays, loops, conditionals, and mat
 
 | Concept | Description |
 |----------|-------------|
-| **Arrays / ArrayLists** | Store stock prices for analysis |
-| **Loops** | Iterate through stock data for calculations |
-| **Conditional Statements** | Compare values to find minimum and maximum prices |
-| **Methods** | Modularize calculation and display logic |
-| **Input Validation** | Prevent runtime errors from invalid user inputs |
+| **Method Overloading** | Each operation is defined for both `float[]` and `ArrayList<Float>` |
+| **Arrays** | Store and process fixed-length stock data |
+| **ArrayList** | Dynamic alternative for stock data handling |
+| **Loops (for-each)** | Iterate through prices to perform calculations |
+| **Conditional Logic** | Compare elements to find maximum or matches |
+| **Encapsulation & Modularization** | Logical operations separated into reusable static methods |
+| **Generics** | `ArrayList<Float>` demonstrates type-safe collections |
+| **Arithmetic Operations** | Average, sum, and cumulative computations |
 
 ---
 
 ## ▶️ How to Run
 
 1️⃣ Open a terminal in the project directory.  
-2️⃣ Compile the program:  
+2️⃣ Compile:
 ```bash
 javac StockAnalysis.java
-```
 
-3️⃣ Run the program:
-```bash
-java StockAnalysis
 ```
 
 ## 🏫 Educational Context
 
-This project was created as part of a Computer Science course at the University of the People.
-It demonstrates an understanding of basic Java syntax, data structures, and control flow through a simple stock analysis simulation.
-The assignment helps students gain confidence in working with numeric data and algorithmic logic.
+This program was created as part of a Computer Science course at the University of the People to demonstrate:
+
+Practical applications of loops, arrays, and collections
+
+Use of overloaded methods for flexibility
+
+Implementation of data analysis logic in a modular, reusable structure
+
+It provides an introductory exploration into data processing and algorithmic thinking using Java.
