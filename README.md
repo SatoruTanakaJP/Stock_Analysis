@@ -40,6 +40,10 @@ The project serves as a hands-on exercise in **modular programming and data proc
 javac StockAnalysis.java
 
 ```
+3️⃣ Run:
+```bash
+java StockAnalysis
+```
 
 ## 🏫 Educational Context
 
